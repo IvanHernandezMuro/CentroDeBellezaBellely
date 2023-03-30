@@ -17136,6 +17136,7 @@ p {
 }
 .u-align-center {
 	text-align: center;
+	top: 3rem;
 }
 @media (min-width: 1400px) {
 	.u-align-center-xxl {
