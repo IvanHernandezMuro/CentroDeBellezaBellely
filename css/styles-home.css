@@ -14,10 +14,11 @@ body {
 
 /** SIDE BAR **/
 header {
-	display: flex;
+	display:flex; 
 	align-items: center;
+    height: 5rem;
 	justify-content:space-between;
-	padding:auto;
+	top: 2px;
 	background-color: #ececec;
     position: fixed;
     width: inherit;
