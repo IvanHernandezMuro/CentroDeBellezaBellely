@@ -5,13 +5,25 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: sans-serif;
+
 }
 
+html {
+	font-size: 16px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
 
 body {
 	width: 100vw;
 	height: 100vh;
-	font-size: 16px;
+
 	background-color: whitesmoke;
 	/*#dcbcd4*/
 }
@@ -39,11 +51,13 @@ header {
 .nav-list li a {
 	text-decoration: none;
 	color: #1c1c1c;
+	font-size: 1rem;
 }
 
 .abrir-menu,
 .cerrar-menu {
 	display: none;
+
 }
 
 @media screen and (max-width: 720px) {
@@ -55,10 +69,12 @@ header {
 		font-size: 1.5rem;
 		background-color: transparent;
 		cursor: pointer;
+
 	}
 
 	.abrir-menu {
 		color: #1c1c1c;
+
 	}
 
 	.cerrar-menu {
